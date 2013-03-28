@@ -1,10 +1,4 @@
 <?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Classe article
  *
@@ -32,7 +26,7 @@ class article {
     {
        echo "<h2>".$this->Titre.":".$this->Auteur."</h2>";
        echo "<p>".$this->Texte."</p>";
-       echo '<p style="font-style:italic">'.$this->Date.'</p>';
+       echo '<p style="font-style:italic;">'.$this->Date.'</p>';
     }
     
 }
