@@ -6,7 +6,11 @@
     </head>
     <body>
         <?php
-        // put your code here
+
+            require "liste.php";
+            
+            $l=new liste();
+            $l->affichageListe();
         ?>
     </body>
 </html>
